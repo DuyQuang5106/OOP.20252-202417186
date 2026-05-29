@@ -1,0 +1,14 @@
+Astah class diagram placeholder
+Classes:
+ - app.DateApp
+ - model.DateModel
+ - model.Direction
+ - model.DateUnit
+ - controller.DateController
+ - view.DateView
+
+Relationships:
+DateApp -> DateController
+DateController -> DateModel
+DateController -> DateView
+DateModel uses Direction, DateUnit

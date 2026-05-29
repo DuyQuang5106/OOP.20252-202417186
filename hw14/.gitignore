@@ -1,0 +1,20 @@
+# Build output
+/out/
+/target/
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies if local jars are used
+/lib/
+
+# Python helper files
+*.pyc
+__pycache__/
+download_javafx.py
